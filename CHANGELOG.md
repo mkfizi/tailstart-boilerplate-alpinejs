@@ -16,6 +16,11 @@ Types of changes:
 ## [Unreleased]
 Put unreleased changes here.
 
+## [0.2.0] - 2023-07-19
+### Changed
+- Revise content style to follow global [style guideline](https://github.com/mkfizi/style-guideline).
+- Restructure `app.js` functions for more conventional standards.
+
 ## [0.1.0] - 2023-06-24
 ### Added
-* First release.
+- First release.
