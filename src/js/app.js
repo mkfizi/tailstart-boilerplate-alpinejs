@@ -1,42 +1,51 @@
 /**
  * --------------------------------------------------------------------------
- * Tailwind Starter Kit - Boilerplate (AlpineJS) v0.1.0: app.js
- * Licensed under MIT (https://github.com/mkfizi/tailwind-starter-kit-boilerplate-alpinejs/blob/main/LICENSE)
+ * Tailstart Kit - Boilerplate (AlpineJS) v0.2.0: app.js
+ * Licensed under MIT (https://github.com/mkfizi/tailstart-kit-boilerplate-alpine/blob/main/LICENSE)
  * --------------------------------------------------------------------------
  */
 
-'use strict';
+(function () {
+    'use strict';
 
-let app = {
-    name: 'Tailwind Starter Kit - Boilerplate',
-    version: '0.1.0',
-};
+    const app = {};
 
-app.elements = {
-    footerAppName: document.getElementById('footerAppName'),
-    footerAppVersion: document.getElementById('footerAppVersion'),
-};
+    app.name = 'Tailstart Kit - Boilerplate';
+    app.version = '0.2.0';
 
-app.init = () => {
-    app.view.init();
-};
+    app.element = {
+        footerCurrentYear: document.getElementById('footer-year'),
+        footerAppName: document.getElementById('footer-app-name'),
+        footerAppVersion: document.getElementById('footer-app-version'),
+    }
+    
+    app.view = {
+        footer: {
+            // Toggle footer content with current year, app name and version
+            toggle: () => {
+                if (app.element.footerCurrentYear) {
+                    app.element.footerCurrentYear.innerHTML = new Date().getFullYear();
+                }
 
+                if (app.element.footerAppName) {
+                    app.element.footerAppName.innerHTML = app.name;
+                }
+                
+                if (app.element.footerAppVersion) {
+                    app.element.footerAppVersion.innerHTML = app.version;
+                }
+            }
+        },
 
-app.view = {
-    init: () => {
-        app.view.updateAppInfo();
-    },
-
-    // Update the footer with current year, app name, and version
-    updateAppInfo: () => {
-        if (app.elements.footerAppName) {
-            app.elements.footerAppName.innerHTML = app.name;
+        // Initialize view
+        init: () => {
+            app.view.footer.toggle();
         }
+    }
 
-        if (app.elements.footerAppVersion) {
-            app.elements.footerAppVersion.innerHTML = app.version;
-        }
-    },
-};
+    app.init = () => {
+        app.view.init();
+    }
 
-app.init();
+    app.init();
+})();
