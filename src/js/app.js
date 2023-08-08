@@ -18,7 +18,7 @@
         footerAppName: document.getElementById('footer-app-name'),
         footerAppVersion: document.getElementById('footer-app-version'),
     }
-    
+
     app.view = {
         footer: {
             // Toggle footer content with current year, app name and version
@@ -30,7 +30,7 @@
                 if (app.element.footerAppName) {
                     app.element.footerAppName.innerHTML = app.name;
                 }
-                
+
                 if (app.element.footerAppVersion) {
                     app.element.footerAppVersion.innerHTML = app.version;
                 }
