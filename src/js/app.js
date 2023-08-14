@@ -10,7 +10,7 @@
 
     const app = {};
 
-    app.name = 'Tailstart Kit - Boilerplate';
+    app.name = 'Tailstart Kit - Boilerplate (AlpineJS)';
     app.version = '0.2.0';
 
     app.element = {
