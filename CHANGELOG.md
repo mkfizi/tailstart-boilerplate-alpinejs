@@ -16,6 +16,13 @@ Types of changes:
 ## [Unreleased]
 Put unreleased changes here.
 
+## [0.2.1] - 2023-08-15
+### Changed
+- Revise naming.
+
+### Fixed
+- Github path.
+
 ## [0.2.0] - 2023-07-19
 ### Changed
 - Revise content style to follow global [style guideline](https://github.com/mkfizi/style-guideline).
