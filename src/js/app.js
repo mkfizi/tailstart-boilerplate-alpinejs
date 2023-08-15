@@ -1,6 +1,6 @@
 /**
  * --------------------------------------------------------------------------
- * Tailstart Kit - Boilerplate (AlpineJS) v0.2.1: app.js
+ * Tailstart Kit - Boilerplate Starter Kit (AlpineJS) v0.2.1: app.js
  * Licensed under MIT (https://github.com/mkfizi/tailstartkit-starter-boilerplate-alpine/blob/main/LICENSE)
  * --------------------------------------------------------------------------
  */
@@ -10,7 +10,7 @@
 
     const app = {};
 
-    app.name = 'Tailstart Kit - Boilerplate (AlpineJS)';
+    app.name = 'Tailstart Kit - Boilerplate Starter Kit (AlpineJS)';
     app.version = '0.2.1';
 
     app.element = {
