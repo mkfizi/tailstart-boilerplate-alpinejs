@@ -1,7 +1,7 @@
 /**
  * --------------------------------------------------------------------------
- * Tailstart Kit - Boilerplate Starter Kit (AlpineJS) v0.2.1: app.js
- * Licensed under MIT (https://github.com/mkfizi/tailstartkit-starter-boilerplate-alpine/blob/main/LICENSE)
+ * Tailstart - Boilerplate Starter Kit (AlpineJS) v0.2.1: app.js
+ * Licensed under MIT (https://github.com/tailstart/starterkit-boilerplate-alpinejs/blob/main/LICENSE)
  * --------------------------------------------------------------------------
  */
 
