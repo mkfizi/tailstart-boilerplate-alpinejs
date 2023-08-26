@@ -1,8 +1,8 @@
-# Tailstart Kit - Boilerplate Starter Kit (AlpineJS)
-[Tailstart Kit](https://mkfizi.dev/tailstartkit/) boilerplate starter kit in HTML and AlpineJS.
+# Tailstart - Boilerplate Starter Kit (AlpineJS)
+[Tailstart](https://tailstart.github.io) boilerplate starter kit in AlpineJS.
 
 ## Variant
-- [HTML + Javascript](https://github.com/mkfizi/tailstartkit-starter-boilerplate)
+- [Javascript](https://github.com/tailstart/starterkit-boilerplate)
 
 ## Features
 * Dark mode toggle: Users can switch between light and dark modes for better readability and preference.
@@ -30,4 +30,4 @@ This starter kit serves as a boilerplate for creating web applications or sites.
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## License
-[MIT](https://github.com/mkfizi/tailstartkit-starter-boilerplate-alpine/blob/main/LICENSE)
+[MIT](https://github.com/tailstart/starterkit-boilerplate-alpinejs/blob/main/LICENSE)
