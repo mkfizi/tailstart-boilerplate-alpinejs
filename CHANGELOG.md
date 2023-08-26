@@ -16,8 +16,10 @@ Types of changes:
 ## [Unreleased]
 Put unreleased changes here.
 
-## [0.2.1] - 2023-08-15
+## [0.2.1] - 2023-08-26
 ### Changed
+- Update app name.
+- Revise button appearance.
 - Revise naming.
 
 ### Fixed
@@ -25,7 +27,7 @@ Put unreleased changes here.
 
 ## [0.2.0] - 2023-07-19
 ### Changed
-- Revise content style to follow global [style guideline](https://github.com/mkfizi/style-guideline).
+- Revise content style to follow [Tailstart UI Kit](https://github.com/tailstart/uikit-styleguide).
 - Restructure `app.js` functions for more conventional standards.
 
 ## [0.1.0] - 2023-06-24
