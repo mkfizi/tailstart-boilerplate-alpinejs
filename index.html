@@ -73,7 +73,7 @@
             <div class="flex items-center gap-4">
 
                 <!-- Dark mode toggle button -->
-                <button type="button" aria-label="Toggle dark mode" 
+                <button type="button" class="group" aria-label="Toggle dark mode" 
                     x-data="{ isDarkMode: '' }"
                     @click="
                         isDarkMode = localStorage.theme === 'light' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: light)').matches);
