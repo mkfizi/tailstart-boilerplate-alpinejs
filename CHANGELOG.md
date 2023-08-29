@@ -21,6 +21,8 @@ Put unreleased changes here.
 - Update app name.
 - Revise button appearance.
 - Revise naming.
+- Revise content padding size.
+- Revise footer appearance.
 
 ### Fixed
 - Github path.
