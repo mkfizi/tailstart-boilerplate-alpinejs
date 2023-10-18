@@ -36,7 +36,6 @@ Put unreleased changes here.
 
 ## [0.2.0] - 2023-07-19
 ### Changed
-- Revise content style to follow [Tailstart UI Kit](https://github.com/tailstart/uikit-styleguide).
 - Restructure `app.js` functions for more conventional standards.
 
 ## [0.1.0] - 2023-06-24
