@@ -1,7 +1,7 @@
 {
-	"name": "@tailstart/starterkit-boilerplate-alpinejs",
-	"version": "0.2.1",
-	"description": "Tailstart boilerplate starter kit in AlpineJS.",
+	"name": "@mkfizi/tailstart-boilerplate-alpinejs",
+	"version": "0.2.2",
+	"description": "TailwindCSS library of multipurpose starter kits",
 	"keywords": [
 		"Tailwindcss",
 		"Starter Kit",

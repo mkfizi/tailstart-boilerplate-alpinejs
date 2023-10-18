@@ -16,6 +16,13 @@ Types of changes:
 ## [Unreleased]
 Put unreleased changes here.
 
+## [0.2.2] - 2023-10-18
+### Changed
+- Revise metadata.
+
+### Fixed
+- Favicon path location from `/src/js` to root.
+
 ## [0.2.1] - 2023-08-26
 ### Changed
 - Update app name.

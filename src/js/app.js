@@ -1,7 +1,7 @@
 /**
  * --------------------------------------------------------------------------
- * Tailstart - Boilerplate Starter Kit (AlpineJS) v0.2.1: app.js
- * Licensed under MIT (https://github.com/tailstart/starterkit-boilerplate-alpinejs/blob/main/LICENSE)
+ * Tailstart - Boilerplate (AlpineJS) v0.2.2: app.js
+ * Licensed under MIT (https://github.com/mkfizi/tailstart-boilerplate-alpinejs/blob/main/LICENSE)
  * --------------------------------------------------------------------------
  */
 
@@ -10,8 +10,8 @@
 
     const app = {};
 
-    app.name = 'Tailstart - Boilerplate Starter Kit (AlpineJS)';
-    app.version = '0.2.1';
+    app.name = 'Tailstart - Boilerplate (AlpineJS)';
+    app.version = '0.2.2';
 
     app.element = {
         footerCurrentYear: document.getElementById('footer-year'),
