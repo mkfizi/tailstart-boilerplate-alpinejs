@@ -1,8 +1,12 @@
 <!-- Error page -->
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth" 
+<html lang="en"
     x-data="{ 
+        // Handle dark mode toggle when the page is loaded
         theme: localStorage.theme || (window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark'), 
+        
+        // Workaround fix to handle viewport height issue on mobile browsers
+        // https://stackoverflow.com/questions/37112218/css3-100vh-not-constant-in-mobile-browser
         viewportHeight: (window.innerHeight * 0.01) + 'px'
     }"
     x-bind:class="theme == 'dark' ? 'dark' : ''"
