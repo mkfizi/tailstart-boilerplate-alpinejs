@@ -19,6 +19,8 @@ Put unreleased changes here.
 ## [0.2.2] - 2023-10-18
 ### Changed
 - Revise metadata.
+- Revise content padding size.
+- Remove `404.html` page style dependency.
 
 ### Fixed
 - Favicon path location from `/src/js` to root.
