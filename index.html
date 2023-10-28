@@ -80,6 +80,7 @@
                 <button type="button" class="group" aria-label="Toggle dark mode" 
                     x-data="{ isDarkMode: '' }"
                     @click="
+                    
                         // Toggle dark mode
                         isDarkMode = localStorage.theme === 'light' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: light)').matches);
                         localStorage.theme = isDarkMode ? 'dark' : 'light';
