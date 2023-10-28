@@ -21,6 +21,7 @@ Put unreleased changes here.
 - Revise metadata.
 - Revise content padding size.
 - Remove `404.html` page style dependency.
+- Simplify navbar.
 
 ### Fixed
 - Favicon path location from `/src/js` to root.
