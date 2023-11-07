@@ -9,7 +9,9 @@
         viewportHeight: (window.innerHeight * 0.01) + 'px'
     }"
     :class="theme == 'dark' ? 'dark' : ''"
-    :style="{ '--vh': viewportHeight}"
+    :style="{ 
+        '--vh': viewportHeight
+    }"
     @resize.window="viewportHeight = (window.innerHeight * 0.01) + 'px'"
 >
 <head>
